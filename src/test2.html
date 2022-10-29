@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>弹窗小demo</title>
+    </head>
+    <body>
+        <button onclick="document.getElementById('pop1').style.display='block'">打开弹窗</button>
+        
+        <!-- 弹窗组件 -->
+        <div id="pop1" style="display:none;width:100vw;height:100vh;background-color:#cccccc69;;top: 0;position: absolute;left: 0;text-align:center">
+            <div style="width:500px;height:400px;text-align:center;background-color:#fff;margin:calc((100vh - 400px)/2) auto">
+                <div style="width:500px;height:50px;border-bottom:1px solid #ccc">
+                    <div style="line-height:50px;font-size:25px;width:100%;float:left">标题</div>
+                    <label onclick="document.getElementById('pop1').style.display='none'" style="line-height:50px;font-size:25px;float:right;position: absolute;margin-left: -30px;cursor:pointer">×</label>
+                </div>
+                <div style="width:500px;height:450px;">
+                    <p>弹窗内容</p>
+                    <p>弹窗内容</p>
+                    <p>弹窗内容</p>
+                    <p>弹窗内容</p>
+                    <p>弹窗内容</p>
+                    <p>弹窗内容</p>
+                </div>
+            </div>
+        </div>
+        <!-- 弹窗组件 -->
+    </body>
+</html>
